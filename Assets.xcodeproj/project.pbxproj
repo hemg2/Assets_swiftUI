@@ -15,6 +15,7 @@
 		637DCAB0295BF0DB00DDF50F /* AssetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAAF295BF0DB00DDF50F /* AssetMenu.swift */; };
 		637DCAB3295BF43600DDF50F /* AssetMenuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAB2295BF43600DDF50F /* AssetMenuButtonStyle.swift */; };
 		637DCAB5295BF74E00DDF50F /* AssetMenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAB4295BF74E00DDF50F /* AssetMenuGridView.swift */; };
+		637DCAB7295BF92400DDF50F /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAB6295BF92400DDF50F /* AssetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		637DCAAF295BF0DB00DDF50F /* AssetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenu.swift; sourceTree = "<group>"; };
 		637DCAB2295BF43600DDF50F /* AssetMenuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuButtonStyle.swift; sourceTree = "<group>"; };
 		637DCAB4295BF74E00DDF50F /* AssetMenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuGridView.swift; sourceTree = "<group>"; };
+		637DCAB6295BF92400DDF50F /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				637DCA9F295B3DD300DDF50F /* ContentView.swift */,
 				637DCAB4295BF74E00DDF50F /* AssetMenuGridView.swift */,
+				637DCAB6295BF92400DDF50F /* AssetView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				637DCAB5295BF74E00DDF50F /* AssetMenuGridView.swift in Sources */,
 				637DCAAC295BEC1200DDF50F /* NavigationBarWithButton.swift in Sources */,
+				637DCAB7295BF92400DDF50F /* AssetView.swift in Sources */,
 				637DCAA0295B3DD300DDF50F /* ContentView.swift in Sources */,
 				637DCA9E295B3DD300DDF50F /* AssetsApp.swift in Sources */,
 				637DCAB0295BF0DB00DDF50F /* AssetMenu.swift in Sources */,
