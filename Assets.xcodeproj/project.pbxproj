@@ -27,6 +27,8 @@
 		637DCACD295C121100DDF50F /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCACC295C121100DDF50F /* AssetSectionHeaderView.swift */; };
 		637DCACF295C13A300DDF50F /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCACE295C13A300DDF50F /* AssetSectionView.swift */; };
 		637DCAD1295C157F00DDF50F /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAD0295C157F00DDF50F /* AssetSummaryView.swift */; };
+		637DCAD3295C1B7D00DDF50F /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAD2295C1B7D00DDF50F /* TabMenuView.swift */; };
+		637DCAD5295C1F3600DDF50F /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DCAD4295C1F3600DDF50F /* AssetCardSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		637DCACC295C121100DDF50F /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
 		637DCACE295C13A300DDF50F /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
 		637DCAD0295C157F00DDF50F /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
+		637DCAD2295C1B7D00DDF50F /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		637DCAD4295C1F3600DDF50F /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				637DCAC3295C071100DDF50F /* AsetBannerView.swift */,
 				637DCACE295C13A300DDF50F /* AssetSectionView.swift */,
 				637DCAD0295C157F00DDF50F /* AssetSummaryView.swift */,
+				637DCAD4295C1F3600DDF50F /* AssetCardSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			children = (
 				637DCACA295C0BE000DDF50F /* AssetSummaryData.swift */,
 				637DCACC295C121100DDF50F /* AssetSectionHeaderView.swift */,
+				637DCAD2295C1B7D00DDF50F /* TabMenuView.swift */,
 			);
 			path = "Summary Therr";
 			sourceTree = "<group>";
@@ -237,10 +243,12 @@
 				637DCAB9295BFD7C00DDF50F /* AssetBanner.swift in Sources */,
 				637DCAB7295BF92400DDF50F /* AssetView.swift in Sources */,
 				637DCAA0295B3DD300DDF50F /* ContentView.swift in Sources */,
+				637DCAD3295C1B7D00DDF50F /* TabMenuView.swift in Sources */,
 				637DCA9E295B3DD300DDF50F /* AssetsApp.swift in Sources */,
 				637DCAB0295BF0DB00DDF50F /* AssetMenu.swift in Sources */,
 				637DCABF295C04B600DDF50F /* PageControl.swift in Sources */,
 				637DCAC4295C071200DDF50F /* AsetBannerView.swift in Sources */,
+				637DCAD5295C1F3600DDF50F /* AssetCardSectionView.swift in Sources */,
 				637DCABB295BFE0800DDF50F /* BannerCard.swift in Sources */,
 				637DCAB3295BF43600DDF50F /* AssetMenuButtonStyle.swift in Sources */,
 			);

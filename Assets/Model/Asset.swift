@@ -25,10 +25,63 @@ class AssetData: Identifiable, ObservableObject, Decodable {
     let id: Int
     let title: String
     let amount: String
+    let creditCardAmounts: [CreditCardAmounts]?
     
-    init(id: Int, title: String, amount: String) {
+    init(id: Int, title: String, amount: String, creditCardAmounts: [CreditCardAmounts]? = nil) {
         self.id = id
         self.title = title
         self.amount = amount
+        self.creditCardAmounts = creditCardAmounts
+    }
+}
+
+
+enum CreditCardAmounts: Identifiable, Decodable {
+case previousMonth(amount: String)
+case currentMonth(amoun: String)
+case nexMonth(amount: String)
+    
+    var id: Int {
+        switch self {
+        case .previousMonth:
+            return 0
+        case .currentMonth:
+            return 1
+        case .nexMonth:
+            return 2
+        }
+    }
+    
+    
+    var amount: String {
+        switch self {
+        case .previousMonth(let amount),
+                .currentMonth(let amount),
+                .nexMonth(let amount):
+            return amount
+        }
+    }
+    enum Codingkeys: String, CodingKey {
+        case previousMonth
+        case currentMonth
+        case nextMonth
+    }
+    
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: Codingkeys.self)
+        
+        if let value = try? values.decode(String.self, forKey:.previousMonth) {
+            self = .previousMonth(amount: value)
+            return
+        }
+        if let value = try? values.decode(String.self, forKey: .currentMonth) {
+            self = .currentMonth(amoun: value)
+            return
+        }
+        if let value = try? values.decode(String.self, forKey: .nextMonth) {
+            self = .nexMonth(amount: value)
+            return
+        }
+        throw fatalError("ERROR: CreditCardAmounts JSON Decoding")
     }
 }

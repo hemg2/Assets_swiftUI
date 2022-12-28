@@ -16,6 +16,13 @@ struct AssetSummaryView: View {
     var body: some View {
         VStack(spacing: 20) {
             ForEach(assets) { asset in
+                switch asset.type {
+                case .creditCard:
+                    AssetCardSectionView(asset: asset)
+                        .frame(idealHeight: 250)
+                default:
+                    AssetSectionView(assetSection: asset)
+                }
                 AssetSectionView(assetSection: asset)
             }
             .background(Color.white)
