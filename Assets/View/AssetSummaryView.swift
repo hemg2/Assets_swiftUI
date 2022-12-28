@@ -19,7 +19,8 @@ struct AssetSummaryView: View {
                 AssetSectionView(assetSection: asset)
             }
             .background(Color.white)
-            
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .padding()
         }
     }
 }
@@ -27,5 +28,7 @@ struct AssetSummaryView: View {
 struct AssetSummaryView_Previews: PreviewProvider {
     static var previews: some View {
         AssetSummaryView()
+            .environmentObject(AssetSummaryData())
+            .background(Color.gray.opacity(0.2))
     }
 }

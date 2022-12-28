@@ -85,9 +85,9 @@
 			children = (
 				637DCAAE295BF0C500DDF50F /* Model */,
 				637DCAAD295BEC1A00DDF50F /* View */,
-				637DCAB1295BF39000DDF50F /*  Asset Manu first */,
+				637DCAB1295BF39000DDF50F /*  Asset Manu First */,
 				637DCAC0295C06C300DDF50F /* Banner Second */,
-				637DCAC9295C0BB800DDF50F /* Data therr */,
+				637DCAC9295C0BB800DDF50F /* Summary Therr */,
 				637DCA9D295B3DD300DDF50F /* AssetsApp.swift */,
 				637DCAA1295B3DD500DDF50F /* Assets.xcassets */,
 				637DCAC5295C0A4D00DDF50F /* assets.json */,
@@ -126,14 +126,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		637DCAB1295BF39000DDF50F /*  Asset Manu first */ = {
+		637DCAB1295BF39000DDF50F /*  Asset Manu First */ = {
 			isa = PBXGroup;
 			children = (
 				637DCAAB295BEC1200DDF50F /* NavigationBarWithButton.swift */,
 				637DCAB2295BF43600DDF50F /* AssetMenuButtonStyle.swift */,
 				637DCAB4295BF74E00DDF50F /* AssetMenuGridView.swift */,
 			);
-			path = " Asset Manu first";
+			path = " Asset Manu First";
 			sourceTree = "<group>";
 		};
 		637DCAC0295C06C300DDF50F /* Banner Second */ = {
@@ -146,13 +146,13 @@
 			path = "Banner Second";
 			sourceTree = "<group>";
 		};
-		637DCAC9295C0BB800DDF50F /* Data therr */ = {
+		637DCAC9295C0BB800DDF50F /* Summary Therr */ = {
 			isa = PBXGroup;
 			children = (
 				637DCACA295C0BE000DDF50F /* AssetSummaryData.swift */,
 				637DCACC295C121100DDF50F /* AssetSectionHeaderView.swift */,
 			);
-			path = "Data therr";
+			path = "Summary Therr";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
